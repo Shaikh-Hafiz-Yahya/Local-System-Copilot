@@ -19,7 +19,7 @@ def load_local_documents(folder_path):
             except Exception as e:
                 print(f"Error reading {filename}: {e}")
                 
-        # Agar normal Text file hai
+        #Agar normal Text file hai
         elif filename.endswith('.txt'):
             with open(file_path, 'r', encoding='utf-8') as f:
                 documents.append({"file_name": filename, "content": f.read()})

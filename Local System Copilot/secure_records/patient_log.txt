@@ -1,0 +1,1 @@
+CRITICAL VIOLATION: Patient credit card number 4111-2222-3333-4444 was saved in plain text file without encryption.
